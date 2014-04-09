@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Arrow Media</title>
+    <style>
+        form.table{
+            display: table;
+            width:800px;
+            margin:24px auto;
+        }
+        label.row{
+            display:table-row;
+
+        }
+        .cell{
+            display:table-cell;
+            width:75%
+
+        }
+        span.cell{
+            width:25%
+
+        }
+        input, textarea{
+            width:100%
+        }
+    </style>
+</head>
+<body>
+<header>
+    <p>
+        <img src="assets/images/arrow-media-logo.png" alt="logo"/>
+    </p>
+
+</header>
+    <nav>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="Process.html">Process</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Technologies.html">Technology</a></li>
+            <li><a href="showcase/Showcase.html">Showcase</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+<div id="content">
+    <section class="first">
+        <p> <!--date cycle slideshow-->
+            <img src="assets/images/php-development-slide_3.jpg" alt="slideshowimages"/>
+            <img src="assets/images/php-development-slide_5.jpg" alt="slideshowimages"/>
+            <img src="assets/images/php-development-slide_2.jpg" alt="slideshowimages"/>
+        </p>
+        <h2>Contact Us</h2>
+        <form method="post" action="http://webdesignstudents.co.uk/students/response.php" class="table">
+
+            <label class="row">
+                <span class="cell">*Name:</span>
+                <input type="text" name="contactname" required class="cell" />
+            </label>
+            <label class="row">
+                <span class="cell">*Email:</span>
+                <input type="text" name="contactemail"required class="cell" />
+            </label>
+            <label class="row">
+                <span class="cell">*Comment:</span>
+
+                <textarea name="comment" id="comment" cols="18" required class="cell"></textarea>
+            </label>
+
+            <label class="row">
+                <span class="cell">Type of Project:</span>
+
+                <select name="type of project" id="type of project">
+                    <option value="Mobile porting"selected>Mobile porting</option>
+                    <option value="Native application development">Native application development</option>
+                    <option value="Cross platform application development">Cross platform application development</option>
+                    <option value="Cross platform application development">Cross platform application development</option>
+                    <option value="Mobile web and hybrid web development">Mobile web and hybrid web development</option>
+                </select>
+            </label>
+         <label class="row">
+                <span class="cell">*Required information</span>
+                <input type="submit" name="submit"class="cell"/>
+            </label>
+
+        </form>
+
+
+    </section>
+</div>
+<footer>
+    <nav>
+        <ul class="nav">
+            <li><a href="general/terms.html">Terms of Service</a></li>
+            <li><a href="general/FAQ.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <p>2000-2014 Arrow Media. All rights reserved.</p>
+
+
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
